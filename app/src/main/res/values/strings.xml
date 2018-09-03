@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SpamDetector</string>
+    <string name="header">Оценки:</string>
+</resources>
