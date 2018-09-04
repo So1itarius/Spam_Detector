@@ -42,7 +42,7 @@ public class MainActivity extends Activity {
                 doc = Jsoup.connect("https://www.neberitrubku.ru/nomer-telefona/"+arg[0]).get();
                 title = doc.select("div.ratings ul li");
                 titleList.clear();
-                if (title.size() == 0){titleList.add(" ");titleList.add("Номер с нейтралльной оценкой");}
+                if (title.size() == 0){titleList.add(" ");titleList.add("Номер с нейтральной оценкой");}
                 else{
                     titleList.add(" ");
                 for (Element li : title) {
